@@ -1,3 +1,4 @@
+```css id="x4n0qa"
 /* ESTILOS GENERALES */
 *{
     margin: 0;
@@ -133,26 +134,27 @@ body {
     margin-bottom: 2rem;
 }
 
-/* CONTENEDOR DE IMÁGENES */
+/* CONTENEDOR DE TARJETAS */
 .menu-items {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
     flex-wrap: wrap;
-    padding: 1rem;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
 }
 
 /* TARJETAS */
 .menu-item {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
     width: 300px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
     display: flex;
     flex-direction: column;
+
+    transition: transform 0.3s;
 }
 
 /* EFECTO */
@@ -163,14 +165,16 @@ body {
 /* IMÁGENES */
 .menu-item img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
+    display: block;
 }
 
 /* TEXTO */
 .menu-item h3 {
     padding: 1rem;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .menu-item span {
@@ -228,3 +232,5 @@ body {
         align-items: center;
     }
 }
+```
+
